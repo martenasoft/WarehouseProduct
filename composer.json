@@ -1,0 +1,18 @@
+{
+    "name": "martena-soft/warehouse-product",
+    "type": "bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MartenaSoft\\WarehouseProduct\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anisimov Kostya",
+            "email": "kostiaGm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

@@ -1,0 +1,12 @@
+###> idea/phpStorm ###
+/.idea
+###< idea/phpStorm ###
+
+###> vendor ###
+/vendor/
+###< vendor ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
