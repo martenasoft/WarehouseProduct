@@ -8,7 +8,6 @@ use MartenaSoft\WarehouseProduct\Repository\ProductStatusRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use MartenaSoft\WarehouseProduct\Entity\Product;
 
 /**
  * @ORM\Entity(repositoryClass=ProductStatusRepository::class)
