@@ -2,9 +2,9 @@
 
 namespace MartenaSoft\WarehouseProduct\Controller;
 
-use App\Entity\ProductStatus;
-use App\Form\ProductStatusType;
-use App\Repository\ProductStatusRepository;
+use MartenaSoft\WarehouseProduct\Entity\ProductStatus;
+use MartenaSoft\WarehouseProduct\Form\ProductStatusType;
+use MartenaSoft\WarehouseProduct\Repository\ProductStatusRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

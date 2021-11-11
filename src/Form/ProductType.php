@@ -2,7 +2,7 @@
 
 namespace MartenaSoft\WarehouseProduct\Form;
 
-use App\Entity\Box;
+use MartenaSoft\Warehouse\Entity\Box;
 use MartenaSoft\WarehouseProduct\Entity\Product;
 use MartenaSoft\WarehouseProduct\Entity\ProductStatus;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;

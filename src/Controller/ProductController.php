@@ -6,12 +6,12 @@ use MartenaSoft\WarehouseCommon\Entity\Interfaces\SavedStatusInterface;
 use MartenaSoft\WarehouseProduct\Entity\Product;
 use MartenaSoft\WarehouseProduct\Form\ProductType;
 use MartenaSoft\WarehouseProduct\Repository\ProductRepository;
-use MartenaSoft\Safe\Service\SafeService;
+use MartenaSoft\WarehouseSafe\Service\SafeService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use MartenaSoft\Safe\Entity\Operation;
+use MartenaSoft\WarehouseSafe\Entity\Operation;
 
 /**
  * @Route("/product")

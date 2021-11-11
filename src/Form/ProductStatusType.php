@@ -2,12 +2,12 @@
 
 namespace MartenaSoft\WarehouseProduct\Form;
 
-use App\Entity\ProductStatus;
+use MartenaSoft\WarehouseProduct\Entity\ProductStatus;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use App\Entity\Operation as AppOperation;
+use MartenaSoft\WarehouseReports\Entity\Operation;
 
 class ProductStatusType extends AbstractType
 {
@@ -19,8 +19,8 @@ class ProductStatusType extends AbstractType
             ->add('safeMoneyOperation', ChoiceType::class, [
                 'choices' => [
                     '' => null,
-                    AppOperation::ADD_TO_SAFE_NAME => AppOperation::TYPE_ADD,
-                    AppOperation::DEDUCT_FROM_SAFE_NAME => AppOperation::TYPE_DEDUCT,
+                    Operation::ADD_TO_SAFE_NAME => Operation::TYPE_ADD,
+                    Operation::DEDUCT_FROM_SAFE_NAME => Operation::TYPE_DEDUCT,
 
                 ]
             ])
